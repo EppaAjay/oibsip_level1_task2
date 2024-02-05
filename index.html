@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="styles.css" rel="stylesheet">
+    <title>
+        Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a17a6d29d2.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo" />
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <section class="home section" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="home-info padd-15">
+                        <h3 class="hello">Hello, my name is <span class="name">Eppa Ajay</span></h3>
+                        <h3 class="my-profession">I'm a <span class="typing">Web Designer</span></h3>
+                        <p>I am a Front End Developer. Building user-friendly websites with expert coding finesse. 
+                            Fluent in HTML, CSS, and JavaScript for seamless online experiences.</p>
+                            <a href="images/Ajay_Resume.pdf" download class="button button2">Download CV</a>
+                    </div>
+                    <div class="home-img padd-15">
+                        <img src="./images/Nani.jpg" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row1">
+                <div class="about-col-1">
+                    
+                    <img src="./images/ajay2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-me-description">
+                        As a fresher, I have gained hands-on experience in various technologies such as JavaScript,
+                         Python, and HTML/CSS. I have Knowledge in SQLite. In addition to my technical skills, 
+                         I am a quick learner and a good team player.
+                         I believe in working collaboratively with my friends/colleagues to achieve project goals and to
+                          provide the best possible user experience.  
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Programming Language</li>
+                            <li><span>JavaScript, Bootstrap, HTML5, CSS3</span><br>Web Application Development</li>
+                            <li><span>SQLite</span><br>Data Base Management System</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan 2024 - Feb 2024</span><br>Oasis Infobyte Internship</li>
+                            <li><span>May 2023 - June 2023</span><br>Tic Toe Game Implementation in Python</li>
+                            <li><span>Jan 2023 - Jan 2023</span><br>To-do List Application</li>
+                            <li><span>November 2022 - December 2022</span><br>Food Munch Application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>MBA from KIMS</li>
+                            <li><span>2019 - 2022</span><br>Hotel Management from KIMS</li>
+                            <li><span>2017- 2019</span><br>Intermediate in MPC from Sahithi Junior College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/todolist.jpg" alt="" />
+                    <div class="layer">
+                        <h3>To-do List</h3>
+                        <p>Users can add tasks, delete task, can mark completed tasks. </p>
+                        <a href="http://ajay2todolist.ccbp.tech"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/foodmunch-banner-bg.png" alt="" />
+                    <div class="layer">
+                        <h3>Food Munch</h3>
+                        <p>The frontend website which contains list of food items, services of restuarant, delivery and Payment section. </p>
+                        <a href="https://ajayefoodmunch.ccbp.tech/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <img src="images/tempconv.jpeg" alt="" />
+                    <div class="layer">
+                        <h3>Temperature Converter</h3>
+                        <p>Users can enter one value and can get converter value of their desired Temperature Measures.</p>
+                        <a href="https://ajaytempconvert.ccbp.tech/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>         
+                        </div>
+    </div>
+
+    <!-- contact us -->
+    <div id="contact">
+        <div class="container">
+            <div class="row1">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>ajayeppa630@gmail.com</p>
+                    <p><i class="fas fa-phone-square"></i>6305665646</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ajay-eppa/"><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                    
+                </div>
+                
+                    
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+            integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
